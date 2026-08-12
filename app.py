@@ -24,7 +24,7 @@ os.makedirs(app.config['RESULTS_FOLDER'], exist_ok=True)
 os.makedirs('templates', exist_ok=True)
 
 # Path to your face encodings file
-ENCODINGS_PATH = "face_encodings.pickle"
+ENCODINGS_PATH = "face_encodings_4.pickle"
 
 # Dictionary to track processing status for each session
 session_status = {}

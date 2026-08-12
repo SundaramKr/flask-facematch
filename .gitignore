@@ -1,6 +1,17 @@
-results
-uploads
-ngroksite
+# User Data
+results/
+uploads/
+
+# Databases
 face_encodings.pickle
-run_face_recognition.bat
+# Note: allowing face_encodings_4.pickle as a lightweight test database
+
+# Logs and Deployments
 service.log
+ngroksite/
+run_face_recognition.bat
+
+# Python and IDE caches
+__pycache__/
+.idea/
+*.pyc
